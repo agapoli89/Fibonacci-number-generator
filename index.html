@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Złoty podział</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Generator złotych ciągów</h1>
+
+    </header>
+
+    <main>
+
+        <article>
+            <div class="interface">
+                <label>
+                    n<sub>01</sub> = <input type="number" id="a" value="2">
+                </label>
+                <label>
+                    n<sub>02</sub> = <input type="number" id="b" value="5">
+                </label>
+                <label>
+                    Ile wyrazów złotego ciągu? -> <input type="number" id="quant" value="20">
+                </label>
+            </div>
+
+            <div class="colors-btn-container">
+                <div data-kind="odd"><span>Nieparzyste -> </span><button class="color-btn" data-color="red"
+                        disabled>Czerwone</button><button class="color-btn" data-color="blue"
+                        disabled>Niebieskie</button></div>
+                <div data-kind="even"><span>Parzyste -> </span><button class="color-btn" data-color="red"
+                        disabled>Czerwone</button><button class="color-btn" data-color="blue"
+                        disabled>Niebieskie</button></div>
+                <div data-kind="fi"><span>Fi -> </span><button class="color-btn" data-color="red"
+                        disabled>Czerwone</button><button class="color-btn" data-color="blue"
+                        disabled>Niebieskie</button></div>
+                <div data-kind="all"><span>Wszystkie -> </span><button class="color-btn" data-color="red"
+                        disabled>Czerwone</button><button class="color-btn" data-color="blue"
+                        disabled>Niebieskie</button></div>
+            </div>
+
+            <div>
+                <input type="button" id="generate_sequence" value="Generuj ciąg">
+            </div>
+
+            <div class="answer-container">
+                <div id="sequence"></div>
+                <div id="ratio"></div>
+            </div>
+
+        </article>
+
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body
+{
+	background-color: #2F3237;
+	color: #FFF;
+	font-size: 18px;
+	font-family: Verdana;
+	padding: 16px;
+	margin: 10px;
+}
+
+h1
+{
+	font-size: 38px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	letter-spacing: 1px;
+	color: #FFC851;
+}
+
+div
+{
+	margin: 2px 0;
+}
+
+.interface
+{
+	margin: 15px 0;
+}
+
+#sequence, #fi
+{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.answer-container, .colors-btn-container {
+	display: flex;
+}
+
+.color-btn {
+	margin-right: 0.4rem;
+}
+
+h4 {
+	height: 2rem;
+	box-sizing: border-box;
+}
+
+.sequence-item {
+	color: grey;
+}
+
+.ratio-item {
+	color: #FFC851;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
